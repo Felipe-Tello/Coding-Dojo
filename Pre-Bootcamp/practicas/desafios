@@ -1,0 +1,58 @@
+
+
+
+function imprimehasta(x){
+    if( x < 1){
+        console.log("false");
+    }
+    for( var n = 1; n <= x; n++){
+        console.log(n)
+    }
+}
+    
+
+var y = imprimehasta(100);
+console.log(y);
+
+
+//
+
+function printSum(x) {
+    var sum = 0;
+    for( var i = 0 ; i < 256 ; i++ ){
+        console.log(i)
+        sum += i
+    }
+    return(sum)
+    
+}
+var y = printSum(255) 
+console.log(y) 
+
+//
+
+function printSumArray(x) {
+    var sum = 0;
+    for (var i = 0; i < x.length; i++) {
+            sum += x[i];              
+    }
+    return(sum);
+}
+console.log( printSumArray([1,2,3]) ); 
+
+//
+
+function mayorElem(x) {
+    var mayorHastaAhora = x[0];
+    for( var i = 0; i < x.length; i++){
+        if(x[i]>= mayorHastaAhora){
+            mayorHastaAhora = x[i]
+        }
+    }
+    return mayorHastaAhora;
+}
+console.log( mayorElem([8,3,11,2,-8]) ); 
+
+
+
+

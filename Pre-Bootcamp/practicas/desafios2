@@ -1,0 +1,19 @@
+function printSum(x) {
+    var sum = 0;
+    for(var i=1;i<=x;i++){
+        console.log(i)
+        sum = sum + i
+        console.log(sum);
+    }
+    return sum
+}
+y = printSum(255) // debe imprimir todos los enteros desde el 0 hasta el 255, y la suma parcial en cada punto
+console.log(y) // debe imprimir 32640
+
+///
+desafio 2
+
+///
+desafio 3
+//7
+desafio
