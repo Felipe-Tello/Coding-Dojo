@@ -1,0 +1,81 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+   #wrapper{
+    width: 950px;
+    background-color: #1b335d;
+    margin: 0px auto;
+    padding: 10px;
+   }
+   #header{
+    min-height: 50px;
+    background-color: #cf3036;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: 100;
+
+   }
+   #navigation{
+    min-height: 200px;
+    width: 150px;
+    background-color: #2a7d8c;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+    border-radius: 10px;
+   }
+   #main_content{
+    min-height: 400px;
+    width: 690px;
+    background-color: #0e1822;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+   }
+   #advertisement{
+    min-height: 40px;
+    width: 905px;
+    background-color: #5d6673;
+    margin: 5px 20px 20px 20px;
+    border-radius: 10px;
+    padding-top: 17px;
+    padding-left: 10px;
+   }
+   body{
+    color: #bdd2e2;
+   }
+   a{
+    color: aquamarine;
+   }
+   .pad{
+       padding-left: 20px;
+       font-size: 12px;
+   }
+   .pad1{
+       padding-left: 25px;
+   }
+   h4{
+       font-size: 12px;
+       padding-left: 10px;
+   }
+   p{
+       padding-left: 17px;
+       padding-bottom: 10px;
+   }
+   h2{
+       font-size: 20px;
+       padding-top: 5px;
+       padding-left: 15px;
+   }
+    .pad2 ul {
+        padding-left: 20px;
+        padding-bottom: 50px;
+   }

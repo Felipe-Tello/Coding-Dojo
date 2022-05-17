@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario De Registro</title>
+</head>
+
+<body>
+    <div>
+        <h2>Mi Formulario De Registro</h2>
+    </div>
+    <div class="texto">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+        <br>
+        <div>   
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label for="contraseña">Contraseña:</label>
+            <input type="text" id="contraseña" name="contraseña">
+        </div>
+        <br>
+        <div>
+            <label for="confirmación">Confirmar Contraseña:</label>
+            <input type="password" id="confirmación" name="confirmación">
+        </div>
+        <br>
+        <div>
+            <label for="cumpleaños">Fecha de nacimiento:</label>
+            <input type="date" id="cumpleaños" name="cumpleaños">
+        </div>
+    </div>
+    <br>
+    <div class="seleccion radio">
+        <div>
+            <label for="Hombre">Hombre</label>
+            <input type="radio" id="Hombre" name="Hombre">
+            <label for="Mujer">Mujer</label>
+            <input type="radio" id="Mujer" name="Mujer">
+            <label for="Otro">Otro</label>
+            <input type="radio" id="Otro" name="Otro">
+        </div>
+    </div>
+    <br>
+    <div class="descripcion">
+        <h4>Una breve descripcion tuya:</h4>
+        <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+        <label for="lengfav">Lenguaje favorito</label>
+        <select name="lengfav" id="lengfav">
+            <option value="Javascript">Javascript</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="C++">C++</option>
+            <option value="Otro">Otro</option>
+        </select>
+    </div>
+    <br>
+    <div class="boton">
+        <input type="button" value="confirmar">
+    </div>    
+</body>
+</html>

@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+main{
+    background: linear-gradient(90deg,rgb(223, 222, 222),rgb(209, 208, 208));
+    height: 1020px;
+}
+.fondo{
+    height: 1040px;
+    width: 1000px;
+    background: linear-gradient(90deg,rgb(223, 222, 222),rgb(209, 208, 208));
+}
+.center{
+    margin-top: 10px;
+    text-align: center;
+}
+.container{
+    width: 1000px;
+    height: 800px;
+
+}
+.encabezado{
+    margin-left: 10px;
+    width: 980px;
+    height: 50px;
+    background-color: #0d0d0d;
+    color: white;
+    border-radius: 3px;
+}
+.imginfo{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+.imginfo input[type=button]{
+    margin-left: 270px;
+    margin-top: 80px;
+}
+.subcaja{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: #eaeaea;
+}
+.subcaja h1{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+.subcaja p{
+    font-size: 13px;
+    border-left: gray 1px solid;
+    padding-left: 10px;
+}
+.subcaja img{
+    margin-top: 20px;
+    width: 39px;
+    height: 34px;
+}
+.subcajalarga{
+    width: 608px;
+    height: 100px;
+    background-color: #eaeaea;
+}
+.cajon{
+    width: 630px;
+    height: 400px;
+    background-color: #eaeaea;
+    display: inline-block;
+}
+.basurin{
+    background-color: white;
+    width: 200px;
+    height: 360px;
+    display: inline-block;
+    vertical-align: top;
+}
+.basurin a{
+    color: black;
+    font-size: 16px;
+}
+.contenedor_cajon{
+    width: 995px;
+    height: 400px;
+    background-color: white;
+}
+.blackparte{
+    margin-left: 10px;
+    width: 985px;
+    height: 300px;
+    background-color: black;
+    color: white;
+}
+.primero{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.primero h1{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.primero li{
+    margin-top: 10px;
+    text-decoration: none;
+}
+.segundo{
+    margin-top: 20px;
+    margin-left: 70px;
+    width: 260px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+.segundo h1{
+    font-size: 24px;
+}
+.segundo li, a{
+    border-bottom:1px solid rgb(47, 47, 47);
+    margin-top: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+.tercero{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 339px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+.tercero h1{
+    font-size: 24px;
+}
+.tercero input[type=text]{
+    margin: 5px;
+    background-color: rgb(58, 58, 58); 
+    border: black;
+}
+.tercero input[type=email]{
+    margin: 5px;
+    background-color: rgb(58, 58, 58);   
+    border: black; 
+}
+.tercero input[type=button]{
+    background-color: rgb(51, 50, 50);
+    padding: 3px;
+    color: rgb(149, 149, 149);
+    border: rgb(65, 65, 65);
+}
+.tercero p,h1{
+    padding-bottom: 20px;
+}
+.parejo{
+    display: inline-block;
+    vertical-align: top;
+}
+.maincont img{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.encabezado h1{
+    display: inline-block;
+    font-size: 22px;
+}
+.lista{
+    margin-top: 10px;
+    margin-left:160px;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+}
+.lista li{
+    margin-left: 10px;
+    display: inline-block;
+    padding-left: 2px;
+}
+.maincont{
+    width: 1000px;
+    height: 277px;
+    background: linear-gradient(90deg,rgb(223, 222, 222),rgb(209, 208, 208));
+}
+.maincont h2{
+    display: inline-block;
+}
+.maincont p{
+    display: inline-block;
+    vertical-align: top;
+}
+.maincont input[type=button]{
+    background-color: black;
+    color: white;
+    padding: 6px;
+    border-radius: 7px;
+}

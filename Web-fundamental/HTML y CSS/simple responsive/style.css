@@ -1,0 +1,29 @@
+*{
+    outline: 1px dotted red; 
+    margin: 0px;
+    padding: 0px;
+}
+.uno{
+    background-color: aqua;
+}
+.tres{
+    background-color: blue;
+}
+.tres{
+    background-color: blueviolet;
+}
+@media only screen and (max-width:480px){
+    .uno{
+        background-color: aquamarine;
+    }
+}
+@media only screen and (min-width:481px){
+    .dos{
+        background-color: brown;
+    }
+}
+@media only screen and (min-width:1024px){
+    .tres{
+        background-color: chartreuse;
+    }
+}
